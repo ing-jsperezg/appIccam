@@ -1717,6 +1717,11 @@ ul.header-notifications li a:hover {
   text-align: center;
   color: #ffffff;
   padding: 5rem 0;
+  background:url(../img/login-bg.jpg)  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .error-screen h1 {
   font-family: "Erica One";

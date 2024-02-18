@@ -12,7 +12,7 @@
 <meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
 <meta property="og:type" content="Website">
 <meta property="og:site_name" content="Bootstrap Gallery">
-<link rel="shortcut icon" href="views/img/favicon.svg" />
+<link rel="shortcut icon" href="<?php echo _appURL;?>app/views/img/favicon.svg" />
 
 <!-- Title -->
 <title>Bootstrap 5 Admin Dashboard Template - Admin Dashboard</title>
@@ -21,16 +21,24 @@
 <!-- *************
     ************ Common Css Files *************
 ************ -->
-<!-- Bootstrap css -->
-<link rel="stylesheet" href="views/css/bootstrap.min.css">
-<!-- Icomoon Font Icons css -->
-<link rel="stylesheet" href="views/fonts/style.css">
-<!-- Main css -->
-<link rel="stylesheet" href="views/css/main.css">
-<!-- Chat css -->
-<link rel="stylesheet" href="views/css/chat.css">
 
-<!-- *************
-    ************ Vendor Css Files *************
-************ -->
+<!-- Font for coming soon page -->
+<link href="https://fonts.googleapis.com/css?family=Erica+One&display=swap" rel="stylesheet">
+
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="<?php echo _appURL;?>app/views/css/bootstrap.min.css">
+<!-- Icomoon Font Icons css -->
+<link rel="stylesheet" href="<?php echo _appURL;?>app/views/fonts/style.css">
+<!-- Main css -->
+<link rel="stylesheet" href="<?php echo _appURL;?>app/views/css/main.css">
+<!-- Chat css -->
+<link rel="stylesheet" href="<?php echo _appURL;?>app/views/css/chat.css">
+
+<!-- sweetalert2 css/js -->
+<link rel="stylesheet" href="<?php echo _appURL;?>app/views/css/sweetalert2.min.css">
+<script src="<?php echo _appURL;?>app/views/js/sweetalert2.all.min.js"></script>
+
+<!-- 404 -->
+<!-- Particles CSS -->
+<link rel="stylesheet" href="<?php echo _appURL;?>app/views/vendor/particles/particles.css">
 

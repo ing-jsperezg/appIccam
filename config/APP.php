@@ -1,6 +1,6 @@
 <?php
 
-    const _appURL = "http://localhost/appiccam/app/";
+    const _appURL = "http://localhost/appiccam/";
     const _appNAME = "APP ICCAM DATA";
     const _appSessionName = "ICCAM_SESSION";
 
